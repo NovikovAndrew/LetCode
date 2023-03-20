@@ -23,7 +23,6 @@ example(of: "283. Move Zeroes") {
     print(mock3)
 }
 
-
 // MARK: - HashTable
 
 example(of: "1. Two Sum") {
@@ -32,4 +31,20 @@ example(of: "1. Two Sum") {
     
     let mock2 = [3,2,3]
     print(twoSum1(mock2, 6))
+}
+
+example(of: "169. Majority Element") {
+    let moc1 = [3, 2, 3, 3, 4]
+    print(majorityElement169(moc1))
+    
+    let moc2 = [2, 3, 3, 2]
+    print(majorityElement169(moc2))
+}
+
+example(of: "229. Majority Element II") {
+    let moc1 = [3, 2, 3, 5, 1]
+    print(majorityElement229(moc1))
+    
+    let moc2 = [2, 3]
+    print(majorityElement229(moc2))
 }
